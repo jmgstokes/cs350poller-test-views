@@ -1,0 +1,64 @@
+[
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "Vote for the next president of planet Earth",
+        "pub_date": "2018-04-02T07:39:48Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "Donald Trump",
+        "votes": 7
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "choice_text": "Bernie Sanders",
+        "votes": 15
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "choice_text": "Hilary Clinton",
+        "votes": 10
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "choice_text": "Jeb Bush",
+        "votes": 8
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "question": 1,
+        "choice_text": "Karl Marx",
+        "votes": 4
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+        "question": 1,
+        "choice_text": "Mickey Mouse",
+        "votes": 20
+    }
+}
+]
